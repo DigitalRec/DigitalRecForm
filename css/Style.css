@@ -25,6 +25,8 @@ h2 {
 /* background is currently white but can insert image if needed here in the body*/
 
 body {
-  background:#FFFF
-    }
+    background:#FFFF
+    margin-left:30%;
+    margin-right:30%;
+}
 ﻿
