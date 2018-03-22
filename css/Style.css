@@ -1,0 +1,30 @@
+header {
+  display:flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: -1em;
+  background: rgba(0,0,0,0.3);
+      }
+
+
+h1 {
+  display:flex;
+  flex-direction:column;
+    }
+
+/* seperated h3 so could format seperately*/
+h2 {
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  padding-bottom: 2em;
+    }
+
+/* have put background image here in the body*/
+
+body {
+  background:#FFFF
+    }
+﻿

@@ -1,34 +1,5 @@
 /*header which is also parent of h1, */
 
-header {
-  display:flex;
-  flex-direction:row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  margin-top: -1em;
-  background: rgba(0,0,0,0.3);
-      }
-
-
-h1 {
-  display:flex;
-  flex-direction:column;
-    }
-
-/* seperated h3 so could format seperately*/
-h2 {
-  display:flex;
-  justify-content: center;
-  align-items:center;
-  padding-bottom: 2em;
-    }
-
-/* have put background image here in the body*/
-
-body {
-  background:#FFFF
-    }
 
 /* First container for the main form */
 .cover{
@@ -53,6 +24,8 @@ padding-bottom: 0.1em;
 /* static state input box background */
 input {
 	margin-top:0.5em;
+  padding-bottom: 2em;
+  border-radius:0.5em;
 	background: rgba(0,0,0,0.1);
 }
 
@@ -62,13 +35,13 @@ background: rgba(0, 0, 255, 0.3)
 }
 
 input[type=submit]{
-	font-size: 1.2em;
+	font-size: 1em;
 	margin-top:1em;
-  margin-bottom:1em;
-	justify-content: center;
-	align-items: center;
-}
+  margin-bottom: 1em;
+  padding-top:1em;
+  width:6em;
 
+}
 
 /* form formatting */
 .flex-form1 {
@@ -77,5 +50,4 @@ input[type=submit]{
   font-size: 2em;
   border-radius: 0.5em;
 	padding-left:1em;
-
             }
