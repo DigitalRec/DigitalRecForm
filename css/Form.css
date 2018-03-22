@@ -51,3 +51,39 @@ input[type=submit]{
   border-radius: 0.5em;
 	padding-left:1em;
             }
+
+/* ==== media queries ====================================================== */
+/* ==== apply these extra styles if the viewport is <=825px wide */
+@media only screen and (max-width: 825px) {
+	#container {
+		width: 90%;
+	}
+	#main {
+		width: 65%;
+	}
+	#secondary {
+		width: 20%;
+	}
+	article {
+		float: left;
+		width: 90%;
+	}
+
+/* ==== apply these extra styles if the viewport is <=625px wide */
+@media only screen and (max-width: 625px) {
+	#container {
+		width: 85%;
+	}
+	#secondary {
+		width: 95%;
+	}
+	#main {
+		width: 95%;
+	}
+}
+
+/* ==== apply these extra styles if the viewport is <=400px wide */
+@media only screen and (max-width: 400px) {
+	#container {
+		width: 95%;
+	}
