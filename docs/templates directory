@@ -1,0 +1,11 @@
++-- docs
+|   +-- templates directory
++-- images
++-- lib 
++-- scripts
+|   +--main.css
+|   +--nav.css
++-- styles
+|   +--main.js
++-- nav.html
++-- index.html
